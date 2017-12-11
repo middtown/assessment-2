@@ -1,0 +1,40 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #898E8C;
+	color: #000000;
+}
+header {
+	text-align: center;
+}
+div.track{
+	background-color: #006E51;
+	border: 3px solid #3b4446;
+ 	width: 400px;
+ 	height: 600px;
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+#player1 {
+	background-color: #D2691E;
+	border: 3px solid black;
+	color: #ffffff;
+	width: 20px;
+ 	height: 20px;
+
+}
+#player2 {
+	background-color: #F6D155;
+	border: 3px solid black;
+	color: #ffffff;
+	width: 20px;
+ 	height: 20px;
+}
+.finishline {
+	text-align: center;
+}
+footer {
+	text-align: center;
+	color: #D2691E;
+	font-family: 
+}
