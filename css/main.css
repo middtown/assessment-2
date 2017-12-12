@@ -6,6 +6,10 @@ body {
 header {
 	text-align: center;
 }
+h3 {
+	color: white;
+}
+/*racing board design*/
 canvas {
 	background-color: #006E51;
 	border: 3px solid #3b4446;
@@ -17,7 +21,7 @@ canvas {
     display: block;
     width: 960px;
 }
-
+/*racing board design*/
 #track{
 	background-color: #006E51;
 	border: 3px solid #3b4446;
@@ -35,9 +39,6 @@ canvas {
 	color: #ffffff;
 	width: 60px;
  	height: 60px;
-/* 	position: absolute;
-*/ 
-
 }
 #player2 {
 	background-color: #F6D155;
@@ -45,16 +46,14 @@ canvas {
 	color: #ffffff;
 	width: 60px;
  	height: 60px;
- 	margin-top: 17%;
-/* 	position: absolute;
-*/ 	
+ 	margin-top: 17%;	
 }
 .finishline {
 	text-align: center;
 }
+/*if i actually used a footer*/
 footer {
 	margin: 5%;
 	text-align: center;
 	color: #D2691E;
-	font-family: 
 }

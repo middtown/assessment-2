@@ -1,35 +1,33 @@
 window.onload = function(){
 	console.log("js is working");
-
-
-var pos2 = 0;
-var pos = 0;
-var p1 = document.getElementById("player1");
-var p2 = document.getElementById("player2");
-
-
+		// grabs current position, starting line
+		var pos2 = 0;
+		var pos = 0;
+		// grabs player one globally
+		var p1 = document.getElementById("player1"); 
+		var p2 = document.getElementById("player2");
 document.addEventListener("keydown", function(event) { 
 	var keyName = event.key;
 	console.log(keyName);
+	// if statements to create keys to press and race
 if (keyName == "f"){
 	console.log("player1");
 	pos+=100;
 	console.log(pos);
 	p1.style.marginLeft = pos + "px";
-
-
 } else if (keyName == "j") {
 	console.log("player2");
 	pos2+=100;
 	console.log(pos2);
 	p2.style.marginLeft = pos2 + "px";
 }
-
+	// winner rational
 if ( pos == 900 && pos2 <= 899) {
 	console.log("player 1 wins");
-
+	alert("Player 1 Wins!!");
 } else if (pos2 == 900 && pos <= 899) {
 	console.log("player 2 wins");
+	alert("Player 2 Wins!!");
 }
 });
 

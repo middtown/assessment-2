@@ -1,0 +1,21 @@
+body {
+	background-image: "images/bricks.png";
+	text-align: : center;
+	align-content: center;
+}
+h1 {
+	color: gray;
+	font-size: 5em;
+	text-align: center;
+	padding-top: 10%;
+	padding: 10%;
+}
+button {
+	text-align: center;
+	align-self: center;
+	
+}
+.box {
+	text-align: center;
+	background-color: #3b4446;
+}
