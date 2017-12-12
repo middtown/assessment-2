@@ -1,5 +1,6 @@
 body {
-	background-image: "images/bricks.png";
+	font-family: font-family: 'Indie Flower', cursive;
+	background-image: url("images/bricks.png");
 	text-align: : center;
 	align-content: center;
 }
@@ -13,9 +14,15 @@ h1 {
 button {
 	text-align: center;
 	align-self: center;
+
 	
 }
 .box {
 	text-align: center;
-	background-color: #3b4446;
+	padding: 5%;
+	background-color: #F6D155;
+	max-width: 10%;
+	max-height: 5%;
+	border-radius: 20px;
+	margin: 0 auto;
 }
